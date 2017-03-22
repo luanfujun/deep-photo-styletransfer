@@ -52,9 +52,9 @@ Note: In the main paper we generate all comparison results using automatic scene
 ## Examples
 Here are some results from our algorithm (from left to right are input, style and our output):
 <p align='center'>
-  <img src='examples/input/in3.png' width='260px'/>
-  <img src='examples/style/tar3.png' width='260px'/>
-  <img src='examples/final_results/best3_t_1000.png' width='260px'/>
+  <img src='examples/input/in3.png' width='270px'/>
+  <img src='examples/style/tar3.png' width='270px'/>
+  <img src='examples/final_results/best3_t_1000.png' width='270px'/>
 </p>
 
 
