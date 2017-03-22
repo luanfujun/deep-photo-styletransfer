@@ -152,7 +152,7 @@ Here are some results from our algorithm (from left to right are input, style an
 Our torch implementation is based on Justin Johnson's [code](https://github.com/jcjohnson/neural-style).
 
 ## Contact
-Feel free to contact me if there is any question (fl356@cornell.edu).  
+Feel free to contact me if there is any question (Fujun Luan fl356@cornell.edu).  
 
 
 
