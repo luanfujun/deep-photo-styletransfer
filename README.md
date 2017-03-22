@@ -34,6 +34,10 @@ python gen_all.py
 ```
 in Python. The final output will be in ``/examples/final_results`` folder.
 
+### Basic usage
+1. Given input and style images with semantic segmentation masks, put them in ``/examples`` folder respectively. They will have the filenames like: ``/examples/in/in<id>.png``, ``/examples/tar/tar<id>.png`` and ``/examples/segmentation/in<id>.png``, ``/examples/segmentation/tar<id>.png``;
+2. 
+
 ## Examples
 
 
