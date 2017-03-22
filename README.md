@@ -2,7 +2,7 @@
 Code for paper "Deep Photo Style Transfer": [arXiv link coming soon]
 
 
-# Setup
+## Setup
 This code is based on torch. It has been tested on Ubuntu 14.04 LTS. 
 
 Dependencies:
@@ -19,12 +19,15 @@ sh models/download_models.sh
 ```
 
 
-# Usage
-To generate all results using the provided scripts, run 
+## Usage
+### Basic usage
+
+### Use script 
+To generate all results (in '/examples' folder) using the provided scripts, run 
 ```
 run('gen_laplacian/gen_laplacian.m')
 ```
-in Matlab and
+in Matlab and then
 ```
 python gen_all.py
 ```
@@ -32,7 +35,8 @@ in Python.
 
 
 
-# Examples
+
+## Examples
 
 
 
