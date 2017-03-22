@@ -15,7 +15,7 @@ CUDA backend:
 
 Download VGG-19:
 ```
-bash models/download_models.sh
+sh models/download_models.sh
 ```
 
 # Examples
