@@ -50,6 +50,8 @@ th deepmatting_seg.lua -content_image <input> -style_image <style> -content_seg 
 Note: In the main paper we generate all comparison results using automatic scene segmenation algorithm modified from [DilatedNet](https://arxiv.org/abs/1606.00915). Manual segmentation enables more diverse tasks and hence we provide the masks in ``/examples/segmentation``.
 
 ## Examples
+Here are some results from our algorithm (from left to right: input, style and our output).
+
 
 
 
