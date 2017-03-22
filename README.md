@@ -18,7 +18,7 @@ Download VGG-19:
 sh models/download_models.sh
 ```
 
-Compile ``cuda_utils.cu`` (Adjust ``PREFIX`` and ``NVCC_PREFIX`` in ``makefile`` for your machine)
+Compile ``cuda_utils.cu`` (Adjust ``PREFIX`` and ``NVCC_PREFIX`` in ``makefile`` for your machine):
 ```
 make clean && make
 ```
