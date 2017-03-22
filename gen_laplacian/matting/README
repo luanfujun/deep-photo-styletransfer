@@ -1,0 +1,71 @@
+This package contains an implementation of the matting algorithm described in
+the CVPR2006 paper:
+"A Closed Form Solution to Natural Image Matting" 
+by A.Levin D.Lischinski and Y.Weiss
+
+Usage of this code is free for research purposes only. 
+Please refer to the above publication if you use this code. 
+
+Copyrights: The Hebrew University of Jerusalem, 2006.
+All rights reserved.
+
+Written by Anat Levin. 
+Please address comments/suggestions/bugs to alevin@cs.huji.ac.il
+-------------------------------------------------------------------------------
+
+To run the matting algorithm, use the runMatting script. 
+The scripts runMatting_*.m are example scripts, calling runMatting on the 
+images used in the paper.
+simple examples to start with, could be:
+runMatting_Kid2.m, runMatting_Hair.m, runMatting_Dandelion.m 
+
+The runMatting script uses the arguments described below.
+
+
+Input arguments:
+
+img_name - input image file
+
+scribs_img_name - input image with black&white scribbles 
+                  Note that since the code uses a simple diff to find the 
+                  scribbled pixels, you should not place scribbles with fuzzy 
+                  boundaries. Photoshop users- use pencil tool, hard brushes.  
+
+
+Output arguments:
+
+alpha, F,B - representing the alpha matte and the estimation of foreground 
+             and background colors.
+
+
+
+Additional (optional) input arguments: (if you don't define them a default 
+                                        value will be used)
+ 
+epsilon - regularization term (see eq 3 in the paper)
+          The default value is epsilon=0.1^7. For jpeg or noisy images use
+          epsilon=0.1^5.
+
+win_size - size of the windows in which the linear model is used 
+           (default is 3x3 windows) 
+
+
+For running matting using multi resolutions:
+
+levels_num - number of levels to use
+
+active_levels_num - use active_levels_num<=levels_num. 
+                    If active_levels_num<levels_num then in the finer 
+                    resolutions alpha is not computed explicitly. Instead the 
+                    linear coefficients of the coarser resolution are 
+                    interpolated.
+
+thr_alpha - threshold on alpha, determines which pixels will be considered as 
+            constraints when passing from a coarser level to a finer one.
+
+Note: when multi-resolution is used, verify that the scribbles are wide enough.
+Thin scribbles might disappear in the coarser resolutions. 
+
+The examples in this package were tested on a 2GB RAM machine. 
+Some of them might run out of memory on machines with less RAM. 
+
