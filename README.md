@@ -9,6 +9,9 @@ Dependencies:
 * [Torch](https://github.com/torch/torch7) (with [matio-ffi](https://github.com/soumith/matio-ffi.torch) and [loadcaffe](https://github.com/szagoruyko/loadcaffe))
 * [Matlab](https://www.mathworks.com/)
 
+CUDA backend:
+* [CUDA](https://developer.nvidia.com/cuda-downloads)
+* [cudnn](https://developer.nvidia.com/cudnn)
 
 
 
