@@ -18,6 +18,18 @@ Download VGG-19:
 sh models/download_models.sh
 ```
 
+# Usage
+To generate all results using the provided scripts, first in Matlab
+'''
+run('gen_laplacian/gen_laplacian.m')
+'''
+and then in Python
+'''
+python gen_all.py
+'''
+.
+
+
 # Examples
 
 
