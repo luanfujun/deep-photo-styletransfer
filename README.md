@@ -18,7 +18,7 @@ Download VGG-19:
 sh models/download_models.sh
 ```
 
-Compile ``cuda_utils.cu``
+Compile ``cuda_utils.cu`` (Adjust ``PREFIX`` and ``NVCC_PREFIX`` in ``makefile`` for your machine)
 ```
 make clean && make
 ```
@@ -33,7 +33,7 @@ in Matlab and then
 ```
 python gen_all.py
 ```
-in Python. The final output will be in ``/examples/final_results``.
+in Python. The final output will be in ``/examples/final_results``. 
 
 ### Basic usage
 1. Given input and style images with semantic segmentation masks, put them in ``/examples`` respectively. They will have the filenames like: ``/examples/input/in<id>.png``, ``/examples/style/tar<id>.png`` and ``/examples/segmentation/in<id>.png``, ``/examples/segmentation/tar<id>.png``;
