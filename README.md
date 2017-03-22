@@ -31,7 +31,7 @@ in Matlab and then
 ```
 python gen_all.py
 ```
-in Python. The 
+in Python. The final output will be in ``/examples/final_results`` folder.
 
 
 
