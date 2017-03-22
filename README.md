@@ -23,7 +23,7 @@ sh models/download_models.sh
 ### Basic usage
 
 ### Use script 
-To generate all results (in '/examples' folder) using the provided scripts, simply run 
+To generate all results (in ``/examples`` folder) using the provided scripts, simply run 
 ```
 run('gen_laplacian/gen_laplacian.m')
 ```
@@ -31,7 +31,7 @@ in Matlab and then
 ```
 python gen_all.py
 ```
-in Python.
+in Python. The 
 
 
 
