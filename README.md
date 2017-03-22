@@ -36,7 +36,7 @@ python gen_all.py
 in Python. The final output will be in ``/examples/final_results``.
 
 ### Basic usage
-1. Given input and style images with semantic segmentation masks, put them in ``/examples`` respectively. They will have the filenames like: ``/examples/in/in<id>.png``, ``/examples/tar/tar<id>.png`` and ``/examples/segmentation/in<id>.png``, ``/examples/segmentation/tar<id>.png``;
+1. Given input and style images with semantic segmentation masks, put them in ``/examples`` respectively. They will have the filenames like: ``/examples/input/in<id>.png``, ``/examples/style/tar<id>.png`` and ``/examples/segmentation/in<id>.png``, ``/examples/segmentation/tar<id>.png``;
 2. Compute the matting Laplacian matrix ``matrix<id>.mat`` using ``gen_laplacian/gen_laplacian.m`` in Matlab;
 3. Run the following script to generate segmented intermediate result:
 ```
@@ -52,8 +52,8 @@ Note: In the main paper we generate all comparison results using automatic scene
 ## Examples
 Here are some results from our algorithm (from left to right are input, style and our output):
 <p align='center'>
-  <img src='examples/in/in3.png' width='150px'/>
-  <img src='examples/tar/tar3.png' width='150px'/>
+  <img src='examples/input/in3.png' width='150px'/>
+  <img src='examples/style/tar3.png' width='150px'/>
   <img src='examples/final_results/best3_t_1000.png' width='150px'/>
 </p>
 
