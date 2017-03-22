@@ -20,15 +20,16 @@ sh models/download_models.sh
 
 
 # Usage
-To generate all results using the provided scripts, first in Matlab
+To generate all results using the provided scripts, run 
 ```
 run('gen_laplacian/gen_laplacian.m')
 ```
-and then in Python
+in Matlab and
 ```
 python gen_all.py
 ```
-.
+in Python.
+
 
 
 # Examples
