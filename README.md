@@ -52,99 +52,99 @@ Note: In the main paper we generate all comparison results using automatic scene
 ## Examples
 Here are some results from our algorithm (from left to right are input, style and our output):
 <p align='center'>
-  <img src='examples/input/in3.png' width='290px'/>
-  <img src='examples/style/tar3.png' width='290px'/>
-  <img src='examples/final_results/best3_t_1000.png' width='290px'/>
+  <img src='examples/input/in3.png' height='194px' width='290px'/>
+  <img src='examples/style/tar3.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best3_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in4.png' width='290px'/>
-  <img src='examples/style/tar4.png' width='290px'/>
-  <img src='examples/final_results/best4_t_1000.png' width='290px'/>
+  <img src='examples/input/in4.png' height='194px' width='290px'/>
+  <img src='examples/style/tar4.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best4_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in13.png' width='290px'/>
-  <img src='examples/style/tar13.png' width='290px'/>
-  <img src='examples/final_results/best13_t_1000.png' width='290px'/>
+  <img src='examples/input/in13.png' height='194px' width='290px'/>
+  <img src='examples/style/tar13.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best13_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in9.png' width='290px'/>
-  <img src='examples/style/tar9.png' width='290px'/>
-  <img src='examples/final_results/best9_t_1000.png' width='290px'/>
+  <img src='examples/input/in9.png' height='194px' width='290px'/>
+  <img src='examples/style/tar9.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best9_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in20.png' width='290px'/>
-  <img src='examples/style/tar20.png' width='290px'/>
-  <img src='examples/final_results/best20_t_1000.png' width='290px'/>
+  <img src='examples/input/in20.png' height='194px' width='290px'/>
+  <img src='examples/style/tar20.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best20_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in1.png' width='290px'/>
-  <img src='examples/style/tar1.png' width='290px'/>
-  <img src='examples/final_results/best1_t_1000.png' width='290px'/>
+  <img src='examples/input/in1.png' height='194px' width='290px'/>
+  <img src='examples/style/tar1.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best1_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in39.png' width='290px'/>
-  <img src='examples/style/tar39.png' width='290px'/>
-  <img src='examples/final_results/best39_t_1000.png' width='290px'/>
+  <img src='examples/input/in39.png' height='194px' width='290px'/>
+  <img src='examples/style/tar39.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best39_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in57.png' width='290px'/>
-  <img src='examples/style/tar57.png' width='290px'/>
-  <img src='examples/final_results/best57_t_1000.png' width='290px'/>
+  <img src='examples/input/in57.png' height='194px' width='290px'/>
+  <img src='examples/style/tar57.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best57_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in47.png' width='290px'/>
-  <img src='examples/style/tar47.png' width='290px'/>
-  <img src='examples/final_results/best47_t_1000.png' width='290px'/>
+  <img src='examples/input/in47.png' height='194px' width='290px'/>
+  <img src='examples/style/tar47.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best47_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in58.png' width='290px'/>
-  <img src='examples/style/tar58.png' width='290px'/>
-  <img src='examples/final_results/best58_t_1000.png' width='290px'/>
+  <img src='examples/input/in58.png' height='194px' width='290px'/>
+  <img src='examples/style/tar58.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best58_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in51.png' width='290px'/>
-  <img src='examples/style/tar51.png' width='290px'/>
-  <img src='examples/final_results/best51_t_1000.png' width='290px'/>
+  <img src='examples/input/in51.png' height='194px' width='290px'/>
+  <img src='examples/style/tar51.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best51_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in7.png' width='290px'/>
-  <img src='examples/style/tar7.png' width='290px'/>
-  <img src='examples/final_results/best7_t_1000.png' width='290px'/>
+  <img src='examples/input/in7.png' height='194px' width='290px'/>
+  <img src='examples/style/tar7.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best7_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in23.png' width='290px'/>
-  <img src='examples/style/tar23.png' width='290px'/>
-  <img src='examples/final_results/best23_t_1000.png' width='290px'/>
+  <img src='examples/input/in23.png' height='194px' width='290px'/>
+  <img src='examples/style/tar23.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best23_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in16.png' width='290px'/>
-  <img src='examples/style/tar16.png' width='290px'/>
-  <img src='examples/final_results/best16_t_1000.png' width='290px'/>
+  <img src='examples/input/in16.png' height='194px' width='290px'/>
+  <img src='examples/style/tar16.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best16_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in30.png' width='290px'/>
-  <img src='examples/style/tar30.png' width='290px'/>
-  <img src='examples/final_results/best30_t_1000.png' width='290px'/>
+  <img src='examples/input/in30.png' height='194px' width='290px'/>
+  <img src='examples/style/tar30.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best30_t_1000.png' height='194px' width='290px'/>
 </p>
 
 <p align='center'>
-  <img src='examples/input/in2.png' width='290px'/>
-  <img src='examples/style/tar2.png' width='290px'/>
-  <img src='examples/final_results/best2_t_1000.png' width='290px'/>
+  <img src='examples/input/in2.png' height='194px' width='290px'/>
+  <img src='examples/style/tar2.png' height='194px' width='290px'/>
+  <img src='examples/final_results/best2_t_1000.png' height='194px' width='290px'/>
 </p>
 
 
