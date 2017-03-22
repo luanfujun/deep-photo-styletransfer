@@ -111,6 +111,50 @@ Here are some results from our algorithm (from left to right are input, style an
   <img src='examples/final_results/best58_t_1000.png' width='290px'/>
 </p>
 
+<p align='center'>
+  <img src='examples/input/in51.png' width='290px'/>
+  <img src='examples/style/tar51.png' width='290px'/>
+  <img src='examples/final_results/best51_t_1000.png' width='290px'/>
+</p>
+
+<p align='center'>
+  <img src='examples/input/in23.png' width='290px'/>
+  <img src='examples/style/tar23.png' width='290px'/>
+  <img src='examples/final_results/best23_t_1000.png' width='290px'/>
+</p>
+
+<p align='center'>
+  <img src='examples/input/in16.png' width='290px'/>
+  <img src='examples/style/tar16.png' width='290px'/>
+  <img src='examples/final_results/best16_t_1000.png' width='290px'/>
+</p>
+
+<p align='center'>
+  <img src='examples/input/in30.png' width='290px'/>
+  <img src='examples/style/tar30.png' width='290px'/>
+  <img src='examples/final_results/best30_t_1000.png' width='290px'/>
+</p>
+
+<p align='center'>
+  <img src='examples/input/in2.png' width='290px'/>
+  <img src='examples/style/tar2.png' width='290px'/>
+  <img src='examples/final_results/best2_t_1000.png' width='290px'/>
+</p>
+
+<p align='center'>
+  <img src='examples/input/in7.png' width='290px'/>
+  <img src='examples/style/tar7.png' width='290px'/>
+  <img src='examples/final_results/best7_t_1000.png' width='290px'/>
+</p>
+
+
+
+
+
+
+
+
+
 
 
 
