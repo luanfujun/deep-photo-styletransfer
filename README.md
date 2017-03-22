@@ -13,6 +13,13 @@ CUDA backend:
 * [CUDA](https://developer.nvidia.com/cuda-downloads)
 * [cudnn](https://developer.nvidia.com/cudnn)
 
+Download VGG-19:
+```
+bash models/download_models.sh
+```
+
+# Examples
+
 
 
 
