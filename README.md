@@ -148,6 +148,11 @@ Here are some results from our algorithm (from left to right are input, style an
 </p>
 
 
+## Acknowledgement
+Our torch implementation is based on Justin Johnson's [code](https://github.com/jcjohnson/neural-style).
+
+## Contact
+Feel free to contact me if there is any question, [email](fl356@cornell.edu).  
 
 
 
