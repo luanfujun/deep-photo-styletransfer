@@ -18,8 +18,15 @@ Download VGG-19:
 sh models/download_models.sh
 ```
 
+Compile ``cuda_utils.cu``
+```
+make clean && make
+```
 
 ## Usage
+
+
+
 ### Basic usage
 
 ### Use script 
