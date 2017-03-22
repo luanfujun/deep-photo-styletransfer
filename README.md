@@ -23,7 +23,7 @@ sh models/download_models.sh
 ### Basic usage
 
 ### Use script 
-To generate all results (in '/examples' folder) using the provided scripts, run 
+To generate all results (in '/examples' folder) using the provided scripts, simply run 
 ```
 run('gen_laplacian/gen_laplacian.m')
 ```
