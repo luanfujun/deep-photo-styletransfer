@@ -151,7 +151,8 @@ Here are some results from our algorithm (from left to right are input, style an
 
 
 ## Acknowledgement
-Our torch implementation is based on Justin Johnson's [code](https://github.com/jcjohnson/neural-style).
+* Our torch implementation is based on Justin Johnson's [code](https://github.com/jcjohnson/neural-style);
+* We use Anat Levin's [code](http://www.wisdom.weizmann.ac.il/~levina/matting.tar.gz) to compute the matting Laplacian matrix.
 
 ## Contact
 Feel free to contact me if there is any question (Fujun Luan fl356@cornell.edu).  
