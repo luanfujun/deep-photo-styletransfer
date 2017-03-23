@@ -1,5 +1,5 @@
 # deep-photo-styletransfer
-Code and data for paper "Deep Photo Style Transfer": [arXiv link coming soon]
+Code and data for paper "[Deep Photo Style Transfer](https://arxiv.org/abs/1703.07511)"
 
 
 ## Setup
