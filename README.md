@@ -51,7 +51,7 @@ th deepmatting_seg.lua -content_image <input> -style_image <style> -content_seg 
 
 Note: In the main paper we generate all comparison results using automatic scene segmenation algorithm modified from [DilatedNet](https://arxiv.org/abs/1606.00915). Manual segmentation enables more diverse tasks hence we provide the masks in ``examples/segmentation/``.
 
-Here are some automatic or manual tools for creating a segmentation mask for a photo image:
+Here are some automatic and manual tools for creating a segmentation mask for a photo image:
 
 #### Automatic:
 * [MIT Scene Parsing](http://sceneparsing.csail.mit.edu/)
