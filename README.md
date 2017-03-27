@@ -125,7 +125,8 @@ Here are some results from our algorithm (from left to right are input, style an
 
 <p align='center'>
   <img src='examples/input/in23.png' width='290'/>
-  <img src='examples/style/tar23.png' width='290'/>
+  <!-- Note: The input and the style are the same for this example, but the masks are different. -->
+  <img src='examples/style/in23.png' width='290'/>
   <img src='examples/final_results/best23_t_1000.png' width='290'/>
 </p>
 
