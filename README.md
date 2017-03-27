@@ -54,15 +54,15 @@ Note: In the main paper we generate all comparison results using automatic scene
 Here are some automatic or manual tools for creating a segmentation mask for a photo image:
 
 #### Automatic:
-MIT Scene Parsing: http://sceneparsing.csail.mit.edu/
-SuperParsing: http://www.cs.unc.edu/~jtighe/Papers/ECCV10/
-Nonparametric Scene Parsing: http://people.csail.mit.edu/celiu/LabelTransfer/
-Berkeley: https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html
-CRF-RNN for Semantic Image Segmentation: https://github.com/torrvision/crfasrnn
-Selective Search: https://github.com/belltailjp/selective_search_py
+* [MIT Scene Parsing](http://sceneparsing.csail.mit.edu/)
+* [SuperParsing](http://www.cs.unc.edu/~jtighe/Papers/ECCV10/)
+* [Nonparametric Scene Parsing](http://people.csail.mit.edu/celiu/LabelTransfer/)
+* [Berkeley Contour Detection and Image Segmentation Resources](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html)
+* [CRF-RNN for Semantic Image Segmentation](https://github.com/torrvision/crfasrnn)
+* [Selective Search](https://github.com/belltailjp/selective_search_py)
 
 #### Manual:
-Photoshop Quick Selection Tool: https://helpx.adobe.com/photoshop/using/making-quick-selections.html
+* [Photoshop Quick Selection Tool](https://helpx.adobe.com/photoshop/using/making-quick-selections.html)
 
 ## Examples
 Here are some results from our algorithm (from left to right are input, style and our output):
