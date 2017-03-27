@@ -125,7 +125,7 @@ Here are some results from our algorithm (from left to right are input, style an
 
 <p align='center'>
   <img src='examples/input/in23.png' width='290'/>
-  <img src='examples/style/in23.png' width='290'/>
+  <img src='examples/input/in23.png' width='290'/>
   <img src='examples/final_results/best23_t_1000.png' width='290'/>
 </p>
 
