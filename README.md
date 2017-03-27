@@ -1,6 +1,7 @@
 # deep-photo-styletransfer
 Code and data for paper "[Deep Photo Style Transfer](https://arxiv.org/abs/1703.07511)"
 
+#Disclaimer This software is published for academic and non-commercial use only.
 
 ## Setup
 This code is based on torch. It has been tested on Ubuntu 14.04 LTS.
