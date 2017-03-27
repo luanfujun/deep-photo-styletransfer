@@ -7,7 +7,7 @@ This code is based on torch. It has been tested on Ubuntu 14.04 LTS.
 
 Dependencies:
 * [Torch](https://github.com/torch/torch7) (with [matio-ffi](https://github.com/soumith/matio-ffi.torch) and [loadcaffe](https://github.com/szagoruyko/loadcaffe))
-* [Matlab](https://www.mathworks.com/)
+* [Matlab](https://www.mathworks.com/) or [Octave](https://www.gnu.org/software/octave/)
 
 CUDA backend:
 * [CUDA](https://developer.nvidia.com/cuda-downloads)
@@ -29,7 +29,7 @@ To generate all results (in ``examples/``) using the provided scripts, simply ru
 ```
 run('gen_laplacian/gen_laplacian.m')
 ```
-in Matlab and then
+in Matlab or Octave and then
 ```
 python gen_all.py
 ```
