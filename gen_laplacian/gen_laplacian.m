@@ -1,5 +1,5 @@
-addpath matting\
-addpath gaimc\
+addpath matting/
+addpath gaimc/
 N = 60;
 
 for i = 1:N
