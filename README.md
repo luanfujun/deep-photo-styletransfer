@@ -49,7 +49,22 @@ th neuralstyle_seg.lua -content_image <input> -style_image <style> -content_seg 
 th deepmatting_seg.lua -content_image <input> -style_image <style> -content_seg <inputMask> -style_seg <styleMask> -index <id> -init_image <intermediate_folder/out<id>_t_1000.png> -serial <final_folder> -f_radius 15 -f_edge 0.01
 ```
 
+### Image segmentation
+
 Note: In the main paper we generate all comparison results using automatic scene segmenation algorithm modified from [DilatedNet](https://arxiv.org/abs/1606.00915). Manual segmentation enables more diverse tasks hence we provide the masks in ``examples/segmentation/``.
+
+Here are some automatic and manual tools for creating a segmentation mask for a photo image:
+
+#### Automatic:
+* [MIT Scene Parsing](http://sceneparsing.csail.mit.edu/)
+* [SuperParsing](http://www.cs.unc.edu/~jtighe/Papers/ECCV10/)
+* [Nonparametric Scene Parsing](http://people.csail.mit.edu/celiu/LabelTransfer/)
+* [Berkeley Contour Detection and Image Segmentation Resources](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html)
+* [CRF-RNN for Semantic Image Segmentation](https://github.com/torrvision/crfasrnn)
+* [Selective Search](https://github.com/belltailjp/selective_search_py)
+
+#### Manual:
+* [Photoshop Quick Selection Tool](https://helpx.adobe.com/photoshop/using/making-quick-selections.html)
 
 ## Examples
 Here are some results from our algorithm (from left to right are input, style and our output):
