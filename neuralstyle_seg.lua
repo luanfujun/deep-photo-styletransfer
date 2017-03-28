@@ -4,7 +4,6 @@ require 'image'
 require 'optim'
 
 require 'loadcaffe'
-require 'libcuda_utils'
 
 require 'cutorch'
 require 'cunn'
