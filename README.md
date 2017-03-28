@@ -150,11 +150,20 @@ Here are some results from our algorithm (from left to right are input, style an
 </p>
 
 
-
-
 ## Acknowledgement
 * Our torch implementation is based on Justin Johnson's [code](https://github.com/jcjohnson/neural-style);
 * We use Anat Levin's Matlab [code](http://www.wisdom.weizmann.ac.il/~levina/matting.tar.gz) to compute the matting Laplacian matrix.
+
+## Citation
+If you find this work useful for your research, please cite:
+```
+@article{luan2017deep,
+  title={Deep Photo Style Transfer},
+  author={Luan, Fujun and Paris, Sylvain and Shechtman, Eli and Bala, Kavita},
+  journal={arXiv preprint arXiv:1703.07511},
+  year={2017}
+}
+```
 
 ## Contact
 Feel free to contact me if there is any question (Fujun Luan fl356@cornell.edu).
