@@ -9,7 +9,7 @@ require 'libcuda_utils'
 require 'cutorch'
 require 'cunn'
 
-local matio = require 'matio'
+local csvigo = require 'csvigo'
 local cmd = torch.CmdLine()
 
 -- Basic options
@@ -114,9 +114,9 @@ local function main(params)
   local cnn = loadcaffe.load(params.proto_file, params.model_file, params.backend):float():cuda()
 
   -- load matting laplacian
-  local CSR_fn = 'gen_laplacian/Input_Laplacian_'..tostring(params.patch)..'x'..tostring(params.patch)..'_1e-7_CSR' .. tostring(index) .. '.mat'
+  local CSR_fn = 'gen_laplacian/Input_Laplacian_'..tostring(params.patch)..'x'..tostring(params.patch)..'_1e-7_CSR' .. tostring(index) .. '.csv'
   print('loading matting laplacian...', CSR_fn)
-  local CSR = matio.load(CSR_fn).CSR:cuda()
+  local CSR = torch.Tensor(csvigo.load({path=CSR_fn,header='false',mode="raw"})):cuda()
 
   paths.mkdir(tostring(params.serial))
   print('Exp serial:', params.serial)

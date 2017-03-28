@@ -9,7 +9,6 @@ require 'libcuda_utils'
 require 'cutorch'
 require 'cunn'
 
-local matio = require 'matio'
 local cmd = torch.CmdLine()
 
 -- Basic options
