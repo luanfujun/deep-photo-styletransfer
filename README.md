@@ -49,6 +49,10 @@ th neuralstyle_seg.lua -content_image <input> -style_image <style> -content_seg 
 th deepmatting_seg.lua -content_image <input> -style_image <style> -content_seg <inputMask> -style_seg <styleMask> -index <id> -init_image <intermediate_folder/out<id>_t_1000.png> -serial <final_folder> -f_radius 15 -f_edge 0.01
 ```
 
+You can pass `-backend cudnn` and `-cudnn_autotune` to both Lua scripts (step 3.
+and 4.) to potentially improve speed and memory usage. `libcudnn.so` must be in
+your `LD_LIBRARY_PATH`. This requires [cudnn.torch](https://github.com/soumith/cudnn.torch).
+
 ### Image segmentation
 
 Note: In the main paper we generate all comparison results using automatic scene segmenation algorithm modified from [DilatedNet](https://arxiv.org/abs/1606.00915). Manual segmentation enables more diverse tasks hence we provide the masks in ``examples/segmentation/``.
