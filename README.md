@@ -55,7 +55,7 @@ your `LD_LIBRARY_PATH`. This requires [cudnn.torch](https://github.com/soumith/c
 
 ### Image segmentation
 
-Note: In the main paper we generate all comparison results using automatic scene segmenation algorithm modified from [DilatedNet](https://arxiv.org/abs/1606.00915). Manual segmentation enables more diverse tasks hence we provide the masks in ``examples/segmentation/``.
+Note: In the main paper we generate all comparison results using automatic scene segmentation algorithm modified from [DilatedNet](https://arxiv.org/abs/1606.00915). Manual segmentation enables more diverse tasks hence we provide the masks in ``examples/segmentation/``.
 
 Here are some automatic and manual tools for creating a segmentation mask for a photo image:
 
