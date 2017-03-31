@@ -72,7 +72,7 @@ Here are some automatic and manual tools for creating a segmentation mask for a 
 * [GIMP Selection Tool](https://docs.gimp.org/en/gimp-tools-selection.html)
 
 ## Examples
-Here are some results from our algorithm (from left to right are input, style and our output):
+The following shows, from left to right, the input, style, and our input:
 <p align='center'>
   <img src='examples/input/in3.png' height='194' width='290'/>
   <img src='examples/style/tar3.png' height='194' width='290'/>
