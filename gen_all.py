@@ -14,7 +14,7 @@ for j in range(1, numGpus + 1):
 	for i in range(1, N + 1):
 		idx = (i-1) * numGpus + j	
 		if idx <= numImgs:
-			print 'working on image pair index = ' + str(idx)
+			print('working on image pair index = ' + str(idx))
 
 			part1_cmd = ' th neuralstyle_seg.lua -content_image examples/input/in'+str(idx)+'.png -style_image examples/style/tar'+str(idx)+'.png -content_seg examples/segmentation/in'+str(idx)+'.png -style_seg examples/segmentation/tar'+str(idx)+'.png -index '+str(idx)+' -num_iterations 1000 -save_iter 100 -print_iter 1 -gpu '+str(j-1)+' -serial examples/tmp_results &&'
 
