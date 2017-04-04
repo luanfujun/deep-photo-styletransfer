@@ -57,6 +57,20 @@ your `LD_LIBRARY_PATH`. This requires [cudnn.torch](https://github.com/soumith/c
 
 Note: In the main paper we generate all comparison results using automatic scene segmentation algorithm modified from [DilatedNet](https://arxiv.org/abs/1606.00915). Manual segmentation enables more diverse tasks hence we provide the masks in ``examples/segmentation/``.
 
+The mask colors we used:
+
+| Color variable  | RGB Value | Hex Value | 
+| ------------- | ------------- | ------------- |
+| `blue`  | `0 0 255`  | `0000ff`  | 
+| `green`  | `0 255 0`  | `00ff00`  |
+| `black`  | `0 0 0`  | `000000`  |
+| `white`  | `255 255 255`  | `ffffff`  |
+| `red`  | `255 0 0`  | `ff0000`  |
+| `yellow`  | `255 255 0`  | `ffff00`  |
+| `grey`  | `128 128 128`  | `808080`  |
+| `lightblue`  | `0 255 255`  | `00ffff`  |
+| `purple`  | `255 0 255`  | `ff00ff ` |
+
 Here are some automatic and manual tools for creating a segmentation mask for a photo image:
 
 #### Automatic:
