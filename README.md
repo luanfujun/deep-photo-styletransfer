@@ -57,7 +57,7 @@ your `LD_LIBRARY_PATH`. This requires [cudnn.torch](https://github.com/soumith/c
 
 Note: In the main paper we generate all comparison results using automatic scene segmentation algorithm modified from [DilatedNet](https://arxiv.org/abs/1606.00915). Manual segmentation enables more diverse tasks hence we provide the masks in ``examples/segmentation/``.
 
-The mask colors we used:
+The mask colors we used (you could add more colors in `ExtractMask` function in two `*.lua` files):
 
 | Color variable  | RGB Value | Hex Value | 
 | ------------- | ------------- | ------------- |
