@@ -80,6 +80,7 @@ Here are some automatic and manual tools for creating a segmentation mask for a 
 * [Berkeley Contour Detection and Image Segmentation Resources](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html)
 * [CRF-RNN for Semantic Image Segmentation](https://github.com/torrvision/crfasrnn)
 * [Selective Search](https://github.com/belltailjp/selective_search_py)
+* [DeepLab-TensorFlow](https://github.com/DrSleep/tensorflow-deeplab-lfov)
 
 #### Manual:
 * [Photoshop Quick Selection Tool](https://helpx.adobe.com/photoshop/using/making-quick-selections.html)
