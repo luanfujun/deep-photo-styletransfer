@@ -85,6 +85,7 @@ Here are some automatic and manual tools for creating a segmentation mask for a 
 #### Manual:
 * [Photoshop Quick Selection Tool](https://helpx.adobe.com/photoshop/using/making-quick-selections.html)
 * [GIMP Selection Tool](https://docs.gimp.org/en/gimp-tools-selection.html)
+* [GIMP G'MIC Interactive Foreground Extraction tool](http://gmic.eu/gimp.shtml)
 
 ## Examples
 Here are some results from our algorithm (from left to right are input, style and our output):
