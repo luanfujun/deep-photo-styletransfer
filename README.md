@@ -185,6 +185,12 @@ Here are some results from our algorithm (from left to right are input, style an
   <img src='examples/final_results/best2_t_1000.png' height='194' width='290'/>
 </p>
 
+<p align='center'>
+  <img src='examples/input/in11.png'  width='290'/>
+  <img src='examples/style/tar11.png' width='290'/>
+  <img src='examples/final_results/best11_t_1000.png'  width='290'/>
+</p>
+
 
 ## Acknowledgement
 * Our torch implementation is based on Justin Johnson's [code](https://github.com/jcjohnson/neural-style);
