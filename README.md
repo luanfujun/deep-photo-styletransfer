@@ -101,19 +101,19 @@ Here are some results from our algorithm (from left to right are input, style an
 <p align='center'>
   <img src='examples/input/in4.png' height='194' width='290'/>
   <img src='examples/style/tar4.png' height='194' width='290'/>
-  <img src='examples/final_results/best4_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_4.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
   <img src='examples/input/in13.png' height='194' width='290'/>
   <img src='examples/style/tar13.png' height='194' width='290'/>
-  <img src='examples/final_results/best13_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_13.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
   <img src='examples/input/in9.png' height='194' width='290'/>
   <img src='examples/style/tar9.png' height='194' width='290'/>
-  <img src='examples/final_results/best9_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_9.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
@@ -125,43 +125,43 @@ Here are some results from our algorithm (from left to right are input, style an
 <p align='center'>
   <img src='examples/input/in1.png' height='194' width='290'/>
   <img src='examples/style/tar1.png' height='194' width='290'/>
-  <img src='examples/final_results/best1_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_1.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
   <img src='examples/input/in39.png' height='194' width='290'/>
   <img src='examples/style/tar39.png' height='194' width='290'/>
-  <img src='examples/final_results/best39_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_39.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
   <img src='examples/input/in57.png' height='194' width='290'/>
   <img src='examples/style/tar57.png' height='194' width='290'/>
-  <img src='examples/final_results/best57_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_57.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
   <img src='examples/input/in47.png' height='194' width='290'/>
   <img src='examples/style/tar47.png' height='194' width='290'/>
-  <img src='examples/final_results/best47_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_47.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
   <img src='examples/input/in58.png' height='194' width='290'/>
   <img src='examples/style/tar58.png' height='194' width='290'/>
-  <img src='examples/final_results/best58_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_58.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
   <img src='examples/input/in51.png' height='194' width='290'/>
   <img src='examples/style/tar51.png' height='194' width='290'/>
-  <img src='examples/final_results/best51_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_51.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
   <img src='examples/input/in7.png' height='194' width='290'/>
   <img src='examples/style/tar7.png' height='194' width='290'/>
-  <img src='examples/final_results/best7_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_7.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
@@ -173,13 +173,13 @@ Here are some results from our algorithm (from left to right are input, style an
 <p align='center'>
   <img src='examples/input/in16.png' height='194' width='290'/>
   <img src='examples/style/tar16.png' height='194' width='290'/>
-  <img src='examples/final_results/best16_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_16.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
   <img src='examples/input/in30.png' height='194' width='290'/>
   <img src='examples/style/tar30.png' height='194' width='290'/>
-  <img src='examples/final_results/best30_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_30.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
@@ -191,7 +191,7 @@ Here are some results from our algorithm (from left to right are input, style an
 <p align='center'>
   <img src='examples/input/in11.png'  width='290'/>
   <img src='examples/style/tar11.png' width='290'/>
-  <img src='examples/final_results/best11_t_1000.png'  width='290'/>
+  <img src='examples/refine_posterization/refine_11.png'  width='290'/>
 </p>
 
 
