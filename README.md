@@ -95,7 +95,7 @@ Here are some results from our algorithm (from left to right are input, style an
 <p align='center'>
   <img src='examples/input/in3.png' height='194' width='290'/>
   <img src='examples/style/tar3.png' height='194' width='290'/>
-  <img src='examples/final_results/best3_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_3.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
