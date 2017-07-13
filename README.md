@@ -119,7 +119,7 @@ Here are some results from our algorithm (from left to right are input, style an
 <p align='center'>
   <img src='examples/input/in20.png' height='194' width='290'/>
   <img src='examples/style/tar20.png' height='194' width='290'/>
-  <img src='examples/final_results/best20_t_1000.png' height='194' width='290'/>
+  <img src='examples/refine_posterization/refine_20.png' height='194' width='290'/>
 </p>
 
 <p align='center'>
