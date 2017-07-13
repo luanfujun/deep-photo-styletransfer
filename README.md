@@ -39,7 +39,10 @@ in Python. The final output will be in ``examples/final_results/``.
 
 ### Basic usage
 1. Given input and style images with semantic segmentation masks, put them in ``examples/`` respectively. They will have the following filename form: ``examples/input/in<id>.png``, ``examples/style/tar<id>.png`` and ``examples/segmentation/in<id>.png``, ``examples/segmentation/tar<id>.png``;
-2. Compute the matting Laplacian matrix using ``gen_laplacian/gen_laplacian.m`` in Matlab. The output matrix will have the following filename form: ``gen_laplacian/Input_Laplacian_3x3_1e-7_CSR<id>.mat``;
+2. Compute the matting Laplacian matrix using ``gen_laplacian/gen_laplacian.m`` in Matlab. The output matrix will have the following filename form: ``gen_laplacian/Input_Laplacian_3x3_1e-7_CSR<id>.mat``; 
+
+*Note: Please make sure that the content image resolution should be consistent for Matting Laplacian computation in Matlab and style transfer in Torch, otherwise the result won't be correct.*
+
 3. Run the following script to generate segmented intermediate result:
 ```
 th neuralstyle_seg.lua -content_image <input> -style_image <style> -content_seg <inputMask> -style_seg <styleMask> -index <id> -serial <intermediate_folder>
